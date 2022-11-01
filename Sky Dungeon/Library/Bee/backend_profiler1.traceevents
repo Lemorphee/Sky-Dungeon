@@ -1,0 +1,637 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665582847475167, "dur":1707, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582847476881, "dur":68, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665582847476975, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665582847476992, "dur":489, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665582847477510, "dur":583, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582847478093, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042346, "dur":132, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042478, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042490, "dur":87, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042577, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042589, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042591, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042597, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042598, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042606, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042607, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042611, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042612, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042617, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042618, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042622, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042623, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042627, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042628, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042633, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042634, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042638, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042639, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042643, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042644, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042649, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042660, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848042684, "dur":3010, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665582847478059, "dur":40, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847478099, "dur":5530, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847483649, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665582847483653, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847485602, "dur":563, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665582847486168, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665582847486226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847486697, "dur":8219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665582847494919, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665582847495075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847495892, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665582847499842, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1665582847500044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847500052, "dur":4373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1665582847504489, "dur":278698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665582847783191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847783197, "dur":29149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665582847812407, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1665582847812461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847812468, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1665582847815990, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1665582847816072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847816081, "dur":9849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1665582847825983, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1665582847826036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847826046, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1665582847828055, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1665582847828102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847828111, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1665582847830249, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1665582847830331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847830339, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1665582847831825, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1665582847831872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847831881, "dur":10400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1665582847842345, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1665582847842516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665582847842526, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1665582847844821, "dur":197520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847478100, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847478100, "dur":5545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847483649, "dur":91633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1665582847575288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847575893, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1665582847577366, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847577531, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847577650, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847580683, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847580897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847580904, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847582781, "dur":28419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847611208, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847611220, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847614655, "dur":21076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847635735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847635744, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847637211, "dur":19308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847656528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847656538, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847658514, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847658693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847658701, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847660413, "dur":20179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847680597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847680607, "dur":7087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847687763, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847687966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847687974, "dur":3925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847691951, "dur":13665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847705621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847705631, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847707124, "dur":23306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847730435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847730445, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847732307, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847732502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847732510, "dur":4740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847737304, "dur":19687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847756995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847757002, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847760735, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847761374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847761382, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847763426, "dur":72657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847836090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847836099, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665582847838870, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665582847838933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665582847838941, "dur":4730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1665582847843728, "dur":198620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665582847478121, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665582847478122, "dur":5587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665582847483709, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665582847484066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665582847496129, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665582847498344, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665582847498472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665582847498480, "dur":291989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665582847790538, "dur":6033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665582847796574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665582847796579, "dur":8270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665582847804895, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1665582847804938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665582847804942, "dur":70755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1665582847875750, "dur":166599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665582847478155, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665582847478155, "dur":5602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665582847483757, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665582847483896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665582847486669, "dur":294181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665582847780906, "dur":1953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665582847782865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665582847782879, "dur":6098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665582847789045, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665582847789251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665582847789259, "dur":18991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665582847808291, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665582847808331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665582847808338, "dur":4161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665582847812540, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665582847812579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665582847812584, "dur":229696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665582848042315, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1665582848042317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847478176, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847478176, "dur":5545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847483722, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1665582847483986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847490739, "dur":15265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1665582847506091, "dur":70106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1665582847576200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847576206, "dur":3820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1665582847580080, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847580270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847580341, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847581987, "dur":34634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847616624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847616631, "dur":7015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847624352, "dur":58251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847682610, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847682620, "dur":5717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847688388, "dur":23099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847711494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847711503, "dur":7612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847719169, "dur":29893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847749069, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847749080, "dur":3713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847752834, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847752958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847752963, "dur":4574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847757605, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847757888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847757893, "dur":3978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847761915, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847762173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847762178, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847764478, "dur":44320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847808854, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847808897, "dur":20490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665582847829433, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1665582847829501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847829509, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1665582847831362, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1665582847831410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847831417, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1665582847832919, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1665582847832968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847832978, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1665582847835233, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1665582847835288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847835295, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1665582847837456, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1665582847837514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847837522, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1665582847839118, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665582847839180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847839214, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665582847841590, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1665582847841654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665582847841661, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1665582847843115, "dur":199228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847478199, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847478200, "dur":5541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847483742, "dur":10753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1665582847494501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847494520, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1665582847497051, "dur":15475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1665582847512575, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847512588, "dur":63389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1665582847576039, "dur":33337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon.exe" }}
+,{ "pid":12345, "tid":6, "ts":1665582847609379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847609386, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon.exe" }}
+,{ "pid":12345, "tid":6, "ts":1665582847613088, "dur":16466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847629560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847629569, "dur":4033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847633647, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847634036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847634044, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847635745, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847635958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847635965, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847637410, "dur":40222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847677637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847677645, "dur":3735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847681426, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847681627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847681634, "dur":5259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847686949, "dur":17210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847704164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847704172, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847705788, "dur":31407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847737414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847737423, "dur":7517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847744989, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847745390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847745398, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847747488, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847747728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847747735, "dur":4881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847752662, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847752808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847752815, "dur":3097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847755957, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847756142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847756148, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847757965, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847758095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847758112, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847761679, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847762098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847762105, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847764920, "dur":76112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847841038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665582847841049, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665582847843298, "dur":199044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847478218, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847478218, "dur":5444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847483663, "dur":12695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1665582847496363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847496377, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1665582847500329, "dur":75379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847575712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847576367, "dur":5671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847582097, "dur":21909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847604013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847604057, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847605953, "dur":31197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847637154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847637163, "dur":4647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847641855, "dur":24828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847666694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847666705, "dur":5630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847672386, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847672643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847672651, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847674668, "dur":17227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847691899, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847691910, "dur":3034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847694983, "dur":28747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847723733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847723739, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847726165, "dur":14833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847741004, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847741015, "dur":4131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847745194, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847745784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847745823, "dur":6593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847752463, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847752634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847752642, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847755399, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847755543, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847755549, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847757496, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847757649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847757654, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847762126, "dur":736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847762865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847762870, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847766383, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847766643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847766654, "dur":3293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847769994, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847770455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847770461, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847772448, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847772590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847772598, "dur":5379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847778028, "dur":1341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847779372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847779379, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847783682, "dur":1586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847785272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847785279, "dur":5606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847790925, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847791472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847791481, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847793815, "dur":71301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847865126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665582847866520, "dur":3714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665582847870289, "dur":172061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847478237, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847478237, "dur":5452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847483691, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1665582847483938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847490206, "dur":281650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1665582847771913, "dur":1039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665582847772955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847772962, "dur":5496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665582847778507, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665582847778734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847778741, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665582847780781, "dur":3647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665582847784432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847784438, "dur":4429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665582847788925, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665582847789762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847789770, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665582847791842, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665582847792166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847792171, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665582847796369, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1665582847796548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847797209, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1665582847798772, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1665582847798819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847798991, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1665582847801223, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1665582847801269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847801276, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1665582847804410, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1665582847804456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847804463, "dur":3282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1665582847807798, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1665582847807845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665582847807853, "dur":55044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1665582847862961, "dur":179398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847478258, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847478258, "dur":5398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847483658, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1665582847483875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847486731, "dur":15660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1665582847502458, "dur":100080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847602544, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847602684, "dur":6615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847609353, "dur":17086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847626444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847626453, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847628182, "dur":1384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847629569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847629576, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847632437, "dur":18803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847651478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847651487, "dur":8616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847660150, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847660326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847660365, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847662564, "dur":18040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847680608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847680616, "dur":7449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847688274, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847688608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847688616, "dur":3462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847692135, "dur":13508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847705646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847705653, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847707413, "dur":2744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847710164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847710173, "dur":8208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847718523, "dur":16967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847735496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847735507, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847737572, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847737740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847737747, "dur":7621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847745414, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847745613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847745620, "dur":4114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847749797, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847749971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847749980, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847752670, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847752826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847752832, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847755482, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847755670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847755676, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847758439, "dur":701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847759144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847759152, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847762481, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847762904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847762909, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847766196, "dur":102783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847869023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665582847869037, "dur":4391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665582847873476, "dur":168885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847478282, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847478282, "dur":5370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847483653, "dur":13135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1665582847496792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847496823, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1665582847498382, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1665582847498507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847498513, "dur":78011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1665582847576585, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1665582847576712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847577186, "dur":20727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1665582847597968, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847598229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847598238, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847599981, "dur":22920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847622907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847622917, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847625925, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847626444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847626453, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847628121, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847628338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847628347, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847629955, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847630336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847630343, "dur":2557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847632951, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847633139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847633147, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847634736, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847635081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847635089, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847637960, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847638175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847638182, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847641737, "dur":27478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847669219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847669227, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847673209, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847673461, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847673472, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847675708, "dur":1084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847676799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847676808, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847679125, "dur":34299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847713434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847713492, "dur":10024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847723575, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847723950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847723956, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847725958, "dur":28408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847754372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847754382, "dur":6202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847760746, "dur":1747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847762523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847762529, "dur":4193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847766770, "dur":2970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847769750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847769760, "dur":4898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847774730, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847774998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847775007, "dur":4277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847779330, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847779831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847779837, "dur":5342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847785230, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847785477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847785482, "dur":5893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847791424, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847791587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847791593, "dur":11001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665582847802641, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":10, "ts":1665582847802686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847802692, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":10, "ts":1665582847804821, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":10, "ts":1665582847804868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847804874, "dur":11075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":10, "ts":1665582847815995, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1665582847816075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665582847816081, "dur":94663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1665582847910783, "dur":131564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847478310, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847478310, "dur":5338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847483650, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1665582847483926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847490192, "dur":8050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1665582847498304, "dur":10097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1665582847508410, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847508426, "dur":68552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1665582847577026, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847577440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847577805, "dur":2520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847580367, "dur":38442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847618819, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847618834, "dur":5511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847624400, "dur":21237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847645644, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847645831, "dur":3574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847649457, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847649663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847649673, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847651403, "dur":15770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847667178, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847667187, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847668835, "dur":18185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847687024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847687033, "dur":4875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847691962, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847692124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847692131, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847694531, "dur":51659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847746194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847746201, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847749789, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847750255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847750261, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847754575, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847754761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847754768, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847757027, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847757278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847757284, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847759617, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847759805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847759812, "dur":2474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847762335, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847762472, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847762481, "dur":4533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847767063, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847767248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847767255, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847769955, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847770328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847770335, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847773321, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847773582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847773590, "dur":5175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847778808, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847778978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847778984, "dur":4519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847783558, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847783843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847783850, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847786507, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847786868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847786876, "dur":6474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847793390, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847793632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847793639, "dur":8580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665582847802258, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665582847802300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847802307, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665582847803620, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1665582847803666, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847803672, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1665582847806284, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665582847806330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847806338, "dur":6395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665582847812770, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665582847812807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847813047, "dur":4599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665582847817707, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665582847817752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847817761, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665582847820745, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1665582847820963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847820973, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1665582847823139, "dur":56535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1665582847879681, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665582847879693, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1665582847882320, "dur":160026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847478344, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847478344, "dur":5366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847483712, "dur":11862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1665582847495578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847495592, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1665582847497924, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1665582847498053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847498119, "dur":79205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1665582847577380, "dur":15027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847592413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847592423, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847594045, "dur":22486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847616540, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847616554, "dur":7084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847623691, "dur":50519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847674214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847674221, "dur":5066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847679428, "dur":23863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847703335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847703346, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847706057, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847706208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847706214, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847707713, "dur":15752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847723471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847723480, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847726520, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847727278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847727287, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847729177, "dur":124349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847853535, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665582847853556, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sunny/build/mon premier build/Sky Dungeon_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665582847856297, "dur":186055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665582848047413, "dur":2801, "ph":"X", "name": "ProfilerWriteOutput" }
+,
